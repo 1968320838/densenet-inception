@@ -1,5 +1,5 @@
 ```markdown
-# DenseNet-Inception混合架构：增强图像分类性能的新型神经网络
+# DI-Net：基于DenseNet与Inception融合的神经网络
 
 ## 摘要
 
@@ -188,4 +188,4 @@ class InceptionBlock(nn.Module):
 - 稳定改进：在整个训练过程中持续准确率提升
 - 卓越的最终性能：92.5%验证准确率
 
-©本论文《DenseNet-Inception混合架构：增强图像分类性能的新型神经网络（DenseNet v3）》由作者李迅在导师王昱的指导下完成，论文版权归作者与导师共同所有
+©本论文《DI-Net：基于DenseNet与Inception融合的神经网络》由作者李迅在导师王昱的指导下完成，论文版权归作者与导师共同所有
