@@ -1,5 +1,5 @@
 ```markdown
-# 融合密集连接与多尺度感知：DenseNet-Inception融合的神经网络
+# 融合密集连接与多尺度感知：DenseNet-Inception融合的神经网络（DenseNet V3）
 
 ## 摘要
 
