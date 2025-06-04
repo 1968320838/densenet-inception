@@ -82,8 +82,9 @@ class InceptionBlock(nn.Module):
         
         return Concat([branch1, branch2, branch3, branch4])
 ```
+![Uploading densenet_inception_architecture.png…]()
 
-#### ![densenet_inception_architecture](densenet_inception_architecture.png)3.1.3 过渡层
+#### 3.1.3 过渡层
 
 过渡层提供特征压缩和空间下采样：
 
@@ -113,8 +114,8 @@ class InceptionBlock(nn.Module):
 ​				   Run2为ResNetV2+Inception
 
 ​                                   Run3为ResNeXt
+![plot_2025-06-04 11-08-50_2](https://github.com/user-attachments/assets/46f4cca0-144b-4903-8d89-8d05ace49d77)
 
-​			    ![plot_2025-06-04 11-08-50_2](plot_2025-06-04 11-08-50_2.png)
 
 | 模型               | 训练轮次 | 最佳验证准确率 (%) | 最终训练准确率 (%) | 最终Top-3准确率 (%) | 训练时间 (分钟) | 参数量 |
 | ------------------ | -------- | ------------------ | ------------------ | ------------------- | --------------- | ------ |
