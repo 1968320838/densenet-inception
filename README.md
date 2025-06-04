@@ -82,7 +82,8 @@ class InceptionBlock(nn.Module):
         
         return Concat([branch1, branch2, branch3, branch4])
 ```
-![CSDN图标](https://github.com/1968320838/densenet-inception/blob/main/densenet_inception_architecture.png)
+![densenet_inception_architecture](https://github.com/user-attachments/assets/ad04e7d8-4629-4551-b66d-780b0308f32c)
+
 
 #### 3.1.3 过渡层
 
