@@ -1,4 +1,5 @@
 ```markdown
+本文版权归 作者李迅在导师王昱的指导下完成，论文版权归作者与导师 所有，依据 GNU 通用公共许可证第三版（GPLv3）发布，详情见 LICENSE 文件。
 # 融合密集连接与多尺度感知：DenseNet-Inception融合的神经网络（DenseNet V3）
 
 ## 摘要
@@ -188,4 +189,4 @@ class InceptionBlock(nn.Module):
 - 稳定改进：在整个训练过程中持续准确率提升
 - 卓越的最终性能：92.5%验证准确率
 
-©本论文《融合密集连接与多尺度感知：DenseNet-Inception融合的神经网络（DenseNet V3）》由作者李迅在导师王昱的指导下完成，论文版权归作者与导师共同所有
+
